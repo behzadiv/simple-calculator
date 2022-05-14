@@ -1,0 +1,39 @@
+.container{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.table tr{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2px ;
+    margin-bottom: 2px;
+}
+.table th{
+    border: 1px solid #333;
+    width: 100px;
+    cursor: pointer;
+}
+.table th:hover{
+    background-color: #d5d5d5;
+}
+.result-screen{
+    width:100% ;
+    height: 6vh;
+    background-color: azure;
+    border: 1px solid #d5d5d5;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+#equal{
+    display: none;
+}
+#equal.show-equal{
+display: block;
+}
